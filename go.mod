@@ -1,4 +1,4 @@
-module github.com/parkr/antispam
+module github.com/rezhajulio/antispam
 
 go 1.13
 
