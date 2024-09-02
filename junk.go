@@ -16,7 +16,7 @@ import (
 // mailbox should be blocked.
 func shouldBanEntireDomain(sender *imap.Address) bool {
 	switch sender.HostName {
-	case "gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "@icloud.com", "@me.com", "@mac.com":
+	case "gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "icloud.com", "me.com", "mac.com":
 		return false
 	}
 	return true
